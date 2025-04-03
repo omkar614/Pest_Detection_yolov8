@@ -31,7 +31,7 @@ def search_pesticide_for_insect(insect_name):
 st.title('🌿 Pest Detection and Pesticide Recommendation')
 
 # Upload image
-uploaded_file = st.file_uploader("Choose an image...", type=['jpg', 'png', 'jpeg'])
+uploaded_file = st.file_uploader("Choose an image...", type=['jpg', 'png', 'jpeg','webp'])
 
 if uploaded_file is not None:
     image = Image.open(uploaded_file)
