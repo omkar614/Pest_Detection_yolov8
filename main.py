@@ -5,10 +5,10 @@ import requests
 
 # Load the YOLO model
 model = YOLO('best.pt')
-
+#V0||45
 # Google Search API function (with error handling)
-API_KEY = 'AIzaSyBRF6Iuas79xOSjXX8a-I1XGLTZQ-zFzV0'
-SEARCH_ENGINE_ID = '101d67946fc174845'
+API_KEY = 'SECRET_API_KEY'
+SEARCH_ENGINE_ID = 'SECRET_SEARCH_ENGINE_ID'
 
 def search_pesticide_for_insect(insect_name):
     """Search Google for pesticides based on the detected pest name."""
@@ -54,9 +54,4 @@ if uploaded_file is not None:
                 **Confidence:** {confidence:.2%}
                 """, unsafe_allow_html=True)
 
-                # Search for pesticide recommendation
-                title, link = search_pesticide_for_insect(pest_class)
-                if link:
-                    st.write(f"🔍 Top Search Result: [{title}]({link})")
-                else:
-                    st.write(f"🔍 {title}")
+               
