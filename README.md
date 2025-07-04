@@ -41,5 +41,12 @@ Weights File: best.pt
 
 Config File: data.yaml
 
+## Outputs
+
+![Confusion Matrix](output_input/confusion_matrix.png)
+![Input Image](output_input/input.png)
+![Detection Output](output_input/output.png)
+
+
 # 🧑‍💻 Author
 ### omkar614 
