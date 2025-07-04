@@ -43,9 +43,18 @@ Config File: data.yaml
 
 ## Outputs
 
-![Confusion Matrix](output_input/confusion_matrix.png)
-![Input Image](output_input/input.png)
-![Detection Output](output_input/output.png)
+<p align="center">
+  <img src="output_input/confusion_matrix.png" alt="Confusion Matrix" width="400"/>
+</p>
+
+<p align="center">
+  <img src="output_input/input.png" alt="Input Image" width="300"/>
+</p>
+
+<p align="center">
+  <img src="output_input/output.png" alt="Detection Output" width="300"/>
+</p>
+
 
 
 # 🧑‍💻 Author
