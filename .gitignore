@@ -2,7 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+scaler1.pkl/
 # C extensions
 *.so
 
